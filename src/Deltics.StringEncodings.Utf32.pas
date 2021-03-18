@@ -1,13 +1,13 @@
 
-{$i deltics.strings.encoding.inc}
+{$i deltics.stringencodings.inc}
 
-  unit Deltics.Strings.Encoding.Utf32;
+  unit Deltics.StringEncodings.Utf32;
 
 
 interface
 
   uses
-    Deltics.Strings.Encoding;
+    Deltics.StringEncodings;
 
 
   type

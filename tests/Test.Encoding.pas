@@ -31,7 +31,7 @@ implementation
     Deltics.Memory,
     Deltics.ReverseBytes,
     Deltics.Strings,
-    Deltics.Strings.Encoding,
+    Deltics.StringEncodings,
     Deltics.Unicode;
 
 

@@ -9,12 +9,12 @@
 
 uses
   Deltics.Smoketest,
-  Deltics.Strings.Encoding in '..\src\Deltics.Strings.Encoding.pas',
-  Deltics.Strings.Encoding.Ascii in '..\src\Deltics.Strings.Encoding.Ascii.pas',
-  Deltics.Strings.Encoding.Utf8 in '..\src\Deltics.Strings.Encoding.Utf8.pas',
-  Deltics.Strings.Encoding.Utf16 in '..\src\Deltics.Strings.Encoding.Utf16.pas',
-  Deltics.Strings.Encoding.Utf32 in '..\src\Deltics.Strings.Encoding.Utf32.pas',
-  Test.Encoding in 'Test.Encoding.pas';
+  Test.Encoding in 'Test.Encoding.pas',
+  Deltics.StringEncodings.Ascii in '..\src\Deltics.StringEncodings.Ascii.pas',
+  Deltics.StringEncodings in '..\src\Deltics.StringEncodings.pas',
+  Deltics.StringEncodings.Utf8 in '..\src\Deltics.StringEncodings.Utf8.pas',
+  Deltics.StringEncodings.Utf16 in '..\src\Deltics.StringEncodings.Utf16.pas',
+  Deltics.StringEncodings.Utf32 in '..\src\Deltics.StringEncodings.Utf32.pas';
 
 begin
   TestRun.Test(EncodingTests);

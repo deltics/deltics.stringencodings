@@ -1,7 +1,7 @@
 
-{$i deltics.strings.encoding.inc}
+{$i deltics.stringencodings.inc}
 
-  unit Deltics.Strings.Encoding;
+  unit Deltics.StringEncodings;
 
 
 interface
@@ -95,10 +95,10 @@ implementation
     SyncObjs,
     Windows,
     Deltics.Exceptions,
-    Deltics.Strings.Encoding.Ascii,
-    Deltics.Strings.Encoding.Utf8,
-    Deltics.Strings.Encoding.Utf16,
-    Deltics.Strings.Encoding.Utf32;
+    Deltics.StringEncodings.Ascii,
+    Deltics.StringEncodings.Utf8,
+    Deltics.StringEncodings.Utf16,
+    Deltics.StringEncodings.Utf32;
 
 
   type
