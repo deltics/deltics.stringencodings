@@ -1,1 +1,1 @@
-# Deltics.Strings
+# Deltics.StringEncodings
