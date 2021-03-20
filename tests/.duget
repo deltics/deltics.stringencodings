@@ -3,6 +3,6 @@
     "&..\\.duspec",
     "deltics.memory:1.0.0",
     "deltics.smoketest:2.9.0",
-    "deltics.strings:2.0.0-beta.16"
+    "deltics.strings:2.0.0"
   ]
 }

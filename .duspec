@@ -15,7 +15,7 @@
     "deltics.contracts:3.1.0",
     "deltics.exceptions:1.1.0",
     "deltics.reversebytes:1.0.0",
-    "deltics.unicode:1.0.1-beta.2"
+    "deltics.unicode:1.0.1"
   ],
   "source":{
       "files":[
